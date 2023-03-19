@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
       {data.map(student => <Student info={student} />) }
+
     </div>
   );
 }
